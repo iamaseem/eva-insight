@@ -1,0 +1,11 @@
+from os import environ
+
+PROJECT_NAME = 'EVA_INSIGHT'
+
+DB_HOST = environ[f'{PROJECT_NAME}_DB_HOST']
+DB_PORT = environ[f'{PROJECT_NAME}_DB_PORT']
+DB_USERNAME = environ[f'{PROJECT_NAME}_DB_USERNAME']
+DB_PASSWORD = environ[f'{PROJECT_NAME}_DB_PASSWORD']
+DB_NAME = environ[f'{PROJECT_NAME}_DB_NAME']
+
+GEMINI_API_KEY = environ['GEMINI_API_KEY']
